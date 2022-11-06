@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="nav">
+        <div class="container">
+          <div class="icon"><img src="https://deepthought.education/assets/images/logo/logo.svg" alt=""></div>
+          <ul>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/1946/1946488.png" alt="" class="icon"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/1690/1690012.png" alt=""class="icon"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/1086/1086581.png" alt=""class="icon"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/3602/3602145.png" alt=""class="icon"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/5720/5720434.png" alt=""class="icon"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/5249/5249188.png" alt=""class="icon"></li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Navigation bar -->
+
+    <!-- back page -->
+    <div class="head">
+      <p id="hh">You are taking challange of new project</p>
+    </div>
+    <div class="body">
+      <p>Name of the project goes here</p>
+      <div class="assetContainer">
+        <div class="asset">
+          <div class="asset1">
+            <div class="mainhead">Asset Heading 1</div>
+            <div class="mainbody">
+              <b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id architecto repellendus atque non, facere nisi beatae ducimus ut dol, voluptates fugiat. Asperiores incidunt explicabonis suscipit provident eius culpa quae nulla fugiat facere ipsum quia, aut harum qui quis id?
+            </b>
+            </div>
+          </div>
+          <div class="asset2">
+            <div class="mainhead">Asset Heading 2</div>
+            <div class="mainbody">
+             <div class="blankbox">
+              Refelect as per given guidelines
+             </div>
+             <button >Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="asset">
+          <div class="asset1">
+            <div class="mainhead">Asset Heading 3</div>
+            <div class="mainbody">
+              <embed class="pdf" src="https://drive.google.com/file/d/1Pxw83bTKE3KkOyYnwm1u6DSVjntSrNTp/preview?usp=sharing" type="application/pdf">
+            </div>
+          </div>
+          <div class="asset2">
+            <div class="mainhead">Asset Heading 4</div>
+            <div class="mainbody">
+              <embed src="https://media.giphy.com/media/IzjhI7ggjDlEnMxZMu/giphy.gif" type="">
+            </div>
+          </div>
+        </div>
+        <div class="asset">
+          <div class="asset1">
+            <div class="mainhead">Asset Heading 5</div>
+            <div class="mainbody">
+              
+              <embed class="audio"
+              src="https://drive.google.com/file/d/1dBBYQsz2yt3vc4YMkRmVC3nuTBbq2GON/preview?usp=sharing" type="">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  
+             
+            </div>
+          </div>
+          <div class="asset2">
+            <div class="mainhead">Asset Heading 6</div>
+            <div class="mainbody">
+                  <embed class="video" src="https://www.youtube.com/embed/s8H0Sx7jy7c" type="">
+                  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- back page -->
+
+    <div id="sidebar">
+			<div class="sidebar-mainhead">
+				<button id="sidebar-btn"> Journey Board &nbsp &nbsp &nbsp ☰</button>
+				<p id="sbp">Name of the Task goes Here</p>
+				<hr>
+				<div class="scontent">
+          <ul>
+            <li><p>Asset Heading 1</p></li>
+            <hr>
+            <li><p>Asset Heading 2</p></li>
+            <hr>
+            <li><p>Asset Heading 3</p></li>
+            <hr>
+            <li><p>Asset Heading 4</p></li>
+            <hr>
+            <li><p>Asset Heading 5</p></li>
+            <hr>
+            <li><p>Asset Heading 6</p></li>
+            
+          </ul>
+					
+					
+				</div>
+
+			</div>
+		</div>
+
+		<script>
+			
+			console.log(document.getElementById("sidebar-btn"));
+			document.getElementById("sidebar-btn").addEventListener("click",myFunction);
+			let x=0;
+			
+			function myFunction(){
+				if(x%2==0){
+				console.log(document.getElementById(x));
+				document.getElementById("sidebar").style.left="0px";
+				}
+				else{
+					document.getElementById("sidebar").style.left="-170px";
+				}
+				x++;
+			}
+		</script>
+    
+  </body>
+</html>
